@@ -6,6 +6,9 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+
+import controller.ControllerCandidato;
+
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
@@ -114,7 +117,8 @@ public class Tela extends JFrame {
 					JOptionPane.showMessageDialog(null, "Todos os campos devem ser preenchidos", "ATENÇÃO", 2,null);
 				}else {
 					JOptionPane.showMessageDialog(null, "DADOS CADASTRADOS COM SUCESSOS!", "SUCESSO", 1,null);
-				}
+				
+			}
 			}
 		}
 		
